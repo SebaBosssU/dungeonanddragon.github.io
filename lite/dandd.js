@@ -1,6 +1,6 @@
 /*!
  * tw2overflow v2.0.0
- * Sat, 13 Feb 2021 18:03:05 GMT
+ * Sat, 13 Feb 2021 21:45:17 GMT
  * Developed by Relaxeaza <twoverflow@outlook.com>
  *
  * This work is free. You can redistribute it and/or modify it under the
@@ -20937,7 +20937,7 @@ define('two/fakeSender', [
             return
         }
         targetLimitGeneral = fakeSenderSettings[SETTINGS.LIMIT_TARGET]
-        ownLimit = fakeSenderSettings[SETTINGS.LIMIT_OWNG]
+        ownLimit = fakeSenderSettings[SETTINGS.LIMIT_OWN]
         ownGroups = fakeSenderSettings[SETTINGS.GROUP]
         commandInterval = fakeSenderSettings[SETTINGS.COMMAND_INTERVAL]
         ownGroups.forEach(function(group) {
